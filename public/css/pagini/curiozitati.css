@@ -1,0 +1,4 @@
+.liste { padding: 0 2rem; }
+.liste > * { padding: 1rem; margin: 1rem 0; border-top: 3px double black; border-bottom: 3px double black; text-align: center; transition: .3s; cursor: pointer; }
+.liste > *:hover, .liste > *:focus { transform: scale(1.05, 1.05) }
+@media (max-width: 270px) { .liste > *:hover, .liste > *:focus { transform: none } }

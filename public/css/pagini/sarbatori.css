@@ -1,0 +1,8 @@
+.titluTabel { color: transparent; -webkit-text-stroke: 2px black; }
+.sarbatoriTabel { display: grid; width: 100%; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); }
+.luna { border-top: 5px double black; border-bottom: 5px double black; margin: 1rem; padding: 1rem; transition: .3s; }
+.titluLuna { width: 100%; font-size: 2rem; font-weight: 700; text-align: center; margin-bottom: 1rem; }
+.sarbatori { text-align: center; padding: 1rem 0; border-top: 1px solid black; border-bottom: 1px solid black; font-size: 1.2rem; }
+.luna:hover, .luna:focus { transform: scale(1.1, 1.1); transform-origin: top; }
+
+@media (max-width: 500px) { .sarbatoriTabel { grid-template-columns: 1fr; } }

@@ -1,0 +1,5 @@
+body { overflow: hidden; }
+.titluPagina { letter-spacing: .5rem; font-weight: 900; }
+.titluPerIst { font-size: 2rem; font-weight: 800; }
+.descPerIst { margin: 1rem 0 0 1rem; }
+.subtitlu { font-size: 1.5em; }
