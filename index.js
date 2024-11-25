@@ -3,7 +3,7 @@ const app = express()
 const router = require("./router/index")
 
 app.set('view engine', 'ejs')
-app.listen(5000)
+app.listen(5647)
 
 app.use("/", router)
 
